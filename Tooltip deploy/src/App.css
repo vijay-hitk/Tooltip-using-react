@@ -1,0 +1,76 @@
+
+.left{
+  position:absolute;
+  top:49%;
+  left : 20%;
+}
+
+.right{
+  position:absolute;
+  top:49%;
+  right : 20%;
+}
+
+.top{
+  position: absolute;
+  top : 30%;
+  left:43%;
+}
+
+.bottom{
+    position: absolute;
+    bottom : 30%;
+    left:40%;
+    
+}
+
+.select{
+  font-weight: 700;
+  color:blueviolet;
+  font-size: larger;
+  top:50px;
+  position: absolute;
+  left:200px;
+
+}
+.hover-btn{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(94, 94, 234);
+  padding : 40px;
+  border-radius: 50%;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  
+}
+.btn-active{
+  background-color: brown;
+  border-radius: 50%;
+  height:80px;
+  width:80px;
+}
+
+.btn{
+  background-color: bisque;
+  border : 2px solid black;
+  margin:20px;
+  padding : 10px;
+  border-radius: 50%;
+  height:80px;
+  width:80px;
+  font-weight: 700;
+
+}
+
+.tooltip{
+  font-size: larger;
+  font-weight: 600;
+}
